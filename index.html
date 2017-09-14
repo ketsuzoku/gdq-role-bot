@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<meta charset="UTF-8">
+	<title>GamesDoneQuick Discord registration</title>
+	<style type="text/css">
+	html, body {
+		height: 100%;
+		margin: 0;
+	}
+
+	body {
+		text-align: center;
+		font-size: 20px;
+		font-family: museo-sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+		color: #333;
+		background-color: #fff;
+		overflow: hidden;
+	}
+
+	.container {
+		width: 100%;
+		overflow: hidden;
+		position: relative;
+		top: 0;
+	}
+
+	video {
+		width: 100%;
+		top: 0;
+		left: 0;
+	}
+
+	#gdqlogo {
+		max-height: calc(100% - 18px);
+		position: absolute;
+		top: 9px;
+		left: 50%;
+		transform: translatex(-50%);
+	}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<video id="header-video" autoplay="" loop="">
+			<source src="https://gamesdonequick.com/static/res/video/headerbg.webm" type="video/webm">
+			<source src="https://gamesdonequick.com/static/res/video/headerbg.mp4" type="video/mp4">
+		</video>
+		<img src="https://gamesdonequick.com/static/res/img/gdqlogo.png" id="gdqlogo">
+	</div>
+
+	<h1>{{result}}</h1>
+	<p>{{message}}</p>
+</body>
+</html>

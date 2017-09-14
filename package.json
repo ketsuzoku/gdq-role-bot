@@ -1,0 +1,21 @@
+{
+  "name": "gdq-role-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "8.5.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "discord.js": "^10.0.1",
+    "express": "^4.13.4",
+    "request": "^2.72.0",
+    "simple-oauth2": "0.7.0"
+  }
+}
